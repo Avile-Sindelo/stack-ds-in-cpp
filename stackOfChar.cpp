@@ -1,6 +1,6 @@
 #include<iostream>
-using namespace std;
 #define MAX 100
+using namespace std;
 
 class StackOfChar {
 	private: 
@@ -74,6 +74,8 @@ int main(){
 	cout << S.pop();
 	cout << S.isEmpty();
 	
+	
+	system("pause");
 	return 0;
 }
 
